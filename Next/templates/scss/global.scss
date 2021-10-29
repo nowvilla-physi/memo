@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@import "destyle.scss";
+@import "variables.scss";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: $base-color;
+    color: $white;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.app {
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+}
