@@ -72,3 +72,46 @@ $ flutter create my_app
 ### .gitignoreの追加
 
 [.gitignoreの中身はこれを参考にする](https://github.com/nowvilla-physi/flutter-tutorial/blob/master/.gitignore)
+
+
+## コマンド集
+
+プロジェクトのクリーン
+```
+$ flutter clean
+```
+
+繋がっている端末の確認
+```
+$ flutter devices
+```
+
+iOSのプロダクト版でのビルド
+```
+$ flutter flutter build ios --release
+```
+
+プロダクト版での実行
+```
+$ flutter run --release
+```
+
+iOSのプロダクト版でのビルド
+```
+$ flutter flutter build ios --release
+```
+
+## アプリリリース
+
+### iOS
+
+必要な端末のスクショ
+
+* 6.5インチ: iPhone 11 Pro Max
+* 5.5インチ: iPhone 8 Plus
+* 12.9インチ: iPad Pro 5th
+* 12.9インチ: iPad Pro 5th
+
+### Android
+
+TODO
