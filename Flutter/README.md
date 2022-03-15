@@ -88,7 +88,7 @@ $ flutter devices
 
 iOSのプロダクト版でのビルド
 ```
-$ flutter flutter build ios --release
+$ flutter build ios --release
 ```
 
 プロダクト版での実行
@@ -98,7 +98,7 @@ $ flutter run --release
 
 iOSのプロダクト版でのビルド
 ```
-$ flutter flutter build ios --release
+$ flutter build ios --release
 ```
 
 ## アプリリリース
