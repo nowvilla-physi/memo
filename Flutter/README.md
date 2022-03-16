@@ -103,15 +103,35 @@ $ flutter build ios --release
 
 ## アプリリリース
 
-### iOS
+### 各アプリをストアに登録する手順
 
-必要な端末のスクショ
+#### 1. AppIDの登録
+
+* apple developerの「Identifiers」の「＋」ボタンをクリックする。
+* `Register a new identifier > App IDs`にチェックが入っていることを確認して「Countine」ボタンをクリックする。
+* `Register a new identifier > Select a type > App`を選択して「Countine」ボタンをクリックする。
+* 以下の項目を埋めて、「Register」ボタンをクリックする。
+    * `Description`: 任意の文字列(XXXXXX YYYYYY ZZZZZZ)
+    * `Bundle ID`: アプリのパッケージ名を入れる。(com.physi.nowvilla.xxxxYyyyZzzz)
+
+#### 2.Profileの作成
+
+* apple developerの「Profile」の「＋」ボタンをクリックする。
+* `App Store`にチェックを入れて「Countine」ボタンをクリックする。
+* `Generate a Provisioning Profile > Select Certificates`でチェックして「Continue」ボタンをクリックする。
+* `Provisioning Profile Name`に「XXXXXX YYYYYY Profile」と入力して「Generate」ボタンをクリックする。
+* 「Download」をクリックして、ダウンロードしたファイルをダブルクリックする。
+    * Xcodeに自動で設定される。
+
+### 必要な端末のスクショ
+
+#### iOS
 
 * 6.5インチ: iPhone 11 Pro Max
 * 5.5インチ: iPhone 8 Plus
 * 12.9インチ: iPad Pro 5th
 * 12.9インチ: iPad Pro 5th
 
-### Android
+#### Android
 
 TODO
