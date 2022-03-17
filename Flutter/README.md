@@ -101,6 +101,12 @@ iOSのプロダクト版でのビルド
 $ flutter build ios --release
 ```
 
+Androidのプロダクト版のバンドル作成  
+`/build/app/outputs/bundle/release/xxxx.aab`に出力される。
+```
+$ flutter build appbundle
+```
+
 ## アプリリリース
 
 ### 各アプリをストアに登録する手順
@@ -122,6 +128,18 @@ $ flutter build ios --release
 * `Provisioning Profile Name`に「XXXXXX YYYYYY Profile」と入力して「Generate」ボタンをクリックする。
 * 「Download」をクリックして、ダウンロードしたファイルをダブルクリックする。
     * Xcodeに自動で設定される。
+
+#### 3.App Store Connectにアプリを追加
+
+* [App Store Connect](https://appstoreconnect.apple.com/) にアクセスする。
+* `My App`をクリックして、App横の「＋」ボタンをクリックする。
+* 「新規App」をクリックする。
+* 以下の項目を入力して「作成」ボタンをクリックする。
+  * 名前: アプリの名前
+  * プライマリ言語: 日本語
+  * バンドルID: 手順1で追加してものを選択する。
+  * SKU: バンドルIDと同じで良い。
+  * ユーザアクセス: アクセス制限なし
 
 ### 必要な端末のスクショ
 
