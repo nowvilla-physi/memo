@@ -107,6 +107,11 @@ Androidのプロダクト版のバンドル作成
 $ flutter build appbundle
 ```
 
+freezedによる自動生成
+```
+$ flutter pub run build_runner build --delete-conflicting-outputs
+```
+
 ## アプリリリース
 
 ### 各アプリをストアに登録する手順
