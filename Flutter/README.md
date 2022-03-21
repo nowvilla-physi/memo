@@ -12,7 +12,7 @@
 
 ```
 $ cd ~/development
-$ unzip ~/Downloads/flutter_macos_2.10.1-stable.zip
+$ unzip ~/Downloads/flutter_macos_2.10.3-stable.zip
 ```
 
 ※ `~/development`がなければ自分で作成する。
