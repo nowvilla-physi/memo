@@ -112,6 +112,19 @@ freezedによる自動生成
 $ flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
+UT実行
+※UTのファイルはxxxx_test.dartにする必要がある。
+`/coverage/lcov.info`が生成される。
+```
+$ flutter test --coverage
+```
+
+カバレッジ確認
+`lcov.info`からカバレッジレポートのHTMLを出力する。
+```
+$ genhtml coverage/lcov.info -o coverage/html
+```
+
 ## アプリリリース
 
 ### 各アプリをストアに登録する手順
