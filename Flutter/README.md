@@ -125,6 +125,17 @@ $ flutter test --coverage
 $ genhtml coverage/lcov.info -o coverage/html
 ```
 
+カバレッジから不要なフォルダやファイルを取り除く。  
+引数に不要なフォルダやファイルを指定する。
+```
+$ lcov --remove coverage/lcov.info 'lib/app.dart' 'lib/component/*' 'lib/router/*' 'lib/ui_core/*' 'lib/view/*' -o coverage/new_lcov.info
+```
+
+テスト実行からカバレッジレポートの作成までの一連のコマンド
+```
+$ flutter test --coverage && lcov --remove coverage/lcov.info 'lib/app.dart' 'lib/component/*' 'lib/router/*' 'lib/ui_core/*' 'lib/view/*' -o coverage/new_lcov.info && genhtml coverage/new_lcov.info --output=coverage
+```
+
 ## アプリリリース
 
 ### 各アプリをストアに登録する手順
