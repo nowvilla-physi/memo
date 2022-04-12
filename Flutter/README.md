@@ -86,11 +86,6 @@ $ flutter clean
 $ flutter devices
 ```
 
-iOSのプロダクト版でのビルド
-```
-$ flutter build ios --release
-```
-
 プロダクト版での実行
 ```
 $ flutter run --release
