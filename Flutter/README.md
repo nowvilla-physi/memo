@@ -76,6 +76,11 @@ $ flutter create my_app
 
 ## コマンド集
 
+Flutterのバージョン確認
+```
+$ flutter --version
+```
+
 プロジェクトのクリーン
 ```
 $ flutter clean
