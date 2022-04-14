@@ -91,6 +91,12 @@ $ flutter clean
 $ flutter devices
 ```
 
+ライブラリを取得や更新を行う。  
+pubspec.yamlを更新したら実行する。
+```
+$ flutter pub get
+```
+
 プロダクト版での実行
 ```
 $ flutter run --release
