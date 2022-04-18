@@ -123,6 +123,11 @@ freezedによる自動生成
 $ flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
+dartファイルのコードフォーマッター
+```
+$ flutter format ./lib
+```
+
 UT実行
 ※UTのファイルはxxxx_test.dartにする必要がある。
 `/coverage/lcov.info`が生成される。
