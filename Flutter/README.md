@@ -81,6 +81,11 @@ Flutterのバージョン確認
 $ flutter --version
 ```
 
+Flutterのバージョンの更新
+```
+$ flutter upgrade
+```
+
 ライブラリの依存関係のツリー表示
 ```
 $ flutter pub deps
