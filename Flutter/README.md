@@ -69,6 +69,13 @@ $ which flutter dart
 $ flutter create my_app
 ```
 
+### Flutterプロジェクトの作成(org入り)
+
+以下のコマンドでorg入りのFlutterプロジェクトを作成する。 
+```
+$ flutter create --org xxxx.xxxx.xxxx my_app
+```
+
 ### .gitignoreの追加
 
 [.gitignoreの中身はこれを参考にする](https://github.com/nowvilla-physi/flutter-tutorial/blob/master/.gitignore)
