@@ -76,6 +76,13 @@ $ flutter create my_app
 $ flutter create --org xxxx.xxxx.xxxx my_app
 ```
 
+### パッケージプロジェクトの作成
+
+以下のコマンドでFlutterパッケージプロジェクトを作成する。 
+```
+$ flutter create --template=package my_package
+```
+
 ### .gitignoreの追加
 
 [.gitignoreの中身はこれを参考にする](https://github.com/nowvilla-physi/flutter-tutorial/blob/master/.gitignore)
